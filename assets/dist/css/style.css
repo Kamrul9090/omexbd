@@ -312,7 +312,7 @@ a {
 }
 
 .footer-content h4 {
-    position: absolute;
+    position: relative;
     z-index: 1;
     top: 10px;
     color: var(--c-white);
@@ -338,13 +338,13 @@ a {
     transition-duration: 1000ms;
 }
 
-/* .footer-line {
+.footer-line {
     position: relative;
-} */
+}
 
 .footer-border-line {
     position: absolute;
-    top: 50px;
+    top: 8px;
     border: 1px solid var(--c-primary-dark);
     display: flex;
     width: 35%;
@@ -353,7 +353,7 @@ a {
 
 .footer-border-line-sm {
     position: absolute;
-    top: 50px;
+    top: 8px;
     border: 1px solid var(--c-primary-dark);
     display: flex;
     width: 25%;
@@ -362,11 +362,13 @@ a {
 
 /* footer service links */
 .footer-links {
-    margin-top: 110px;
+    margin-top: 50px;
     padding-left: 0%;
     font-size: small;
-    color: var(--c-white);
+}
 
+.footer-links p {
+    color: var(--c-white);
 }
 
 .footer-links li {
@@ -386,7 +388,6 @@ a {
 .footer-times {
     display: flex;
     justify-content: space-between;
-
 }
 
 .footer-times span {
@@ -402,6 +403,11 @@ a {
     margin-right: 10px;
 }
 
+.footer-address p,
+i {
+    color: var(--c-white);
+}
+
 .footer-address p i:hover {
     color: var(--c-primary-dark);
     transition-duration: 500ms;
@@ -409,10 +415,13 @@ a {
 
 .bottom-footer {
     background-color: var(--c-primary-dark);
-    color: var(--c-white);
     display: flex;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.bottom-footer p {
+    color: var(--c-white);
 }
 
 .bottom-footer div {

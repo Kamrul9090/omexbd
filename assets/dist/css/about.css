@@ -38,5 +38,19 @@
 }
 
 /* article section css */
+.omex_article {
+    text-align: justify;
+}
 
-.article_dummy_banner {}
+.omex_article p {
+    color: var(--c-text-light);
+}
+
+.article_dummy_banner {
+    width: 100%;
+}
+
+.article_dummy_banner,
+img {
+    width: max-content;
+}
