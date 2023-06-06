@@ -440,7 +440,6 @@ i {
 .bottom-footer div {
     display: flex;
     justify-content: space-around;
-
 }
 
 .bottom-footer span {
@@ -457,13 +456,11 @@ i {
         width: 100%;
     }
 
-    /* 
-    .contact-number {
-        padding-top: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
+    .bottom-footer div {
+        flex-direction: column;
+        text-align: center;
+
+    }
 
 
 
@@ -483,6 +480,12 @@ i {
 
     .btn-form {
         width: 100%;
+    }
+
+    .bottom-footer div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
 }
