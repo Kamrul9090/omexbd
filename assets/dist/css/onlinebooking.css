@@ -1,0 +1,117 @@
+.book_consigment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book_consigment h4 {
+    color: var(--c-black);
+}
+
+.form_header {
+    border: 1px solid var(--c-primary-main);
+    border-radius: 5px;
+    position: relative;
+}
+
+.lable-control {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top_form_header h6 {
+    background-color: var(--c-primary-main);
+    color: var(--c-white);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    top: -37px;
+    padding-left: 20px;
+}
+
+.top_form_header h6 {
+    background-color: var(--c-primary-main);
+    color: var(--c-white);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: absolute;
+    top: -37px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.required-start {
+    font-size: 20px;
+    margin-left: 5px;
+    color: var(--c-primary-main);
+}
+
+.zip_city_code {
+    display: flex;
+    margin-top: 20px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group-addon:first-child {
+    background-color: var(--c-gray-light);
+    padding: 4px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid var(--c-primary-light);
+    position: absolute;
+}
+
+.add-table-border {
+    border-bottom: 1px solid var(--c-text-main) !important;
+}
+
+.add-top-table-border {
+    border-top: 1px solid var(--c-text-main) !important;
+}
+
+.table-border,
+th,
+td {
+    border: none;
+}
+
+/* verification css*/
+
+.verification {
+    display: flex;
+}
+
+
+@media screen and (max-width:576px) {
+    .zip_city_code {
+        flex-direction: column;
+    }
+
+    .lable-control {
+        font-size: 12px;
+    }
+
+    .verification {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .zip_city_code {
+        flex-direction: column;
+    }
+
+    .lable-control {
+        font-size: 14px;
+    }
+
+    .verification {
+        flex-direction: column;
+        text-align: center;
+    }
+}

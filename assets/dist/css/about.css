@@ -54,3 +54,34 @@
 img {
     width: max-content;
 }
+
+/* contact section  css*/
+
+.about_contact_section {
+    padding: 10px 60px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.about_contact_section:hover {
+    box-shadow: -5px -5px 20px -5px #000;
+    transition-duration: 500ms;
+}
+
+.about_contact_section:hover i,
+.about_contact_section:hover i {
+    color: var(--c-primary-dark);
+}
+
+.about_contact_number {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about_contact_number i {
+    color: var(--c-black);
+    margin-right: 10px;
+}

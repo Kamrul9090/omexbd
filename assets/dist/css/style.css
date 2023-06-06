@@ -1,3 +1,8 @@
+/* header section css */
+.dropdown {
+    list-style: none;
+}
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -47,20 +52,30 @@
 
 .swiper-slide {
     position: relative;
+    width: 100%;
 }
 
 .slider-animation {
     animation: bounce;
     direction: 2s;
-
 }
 
+
 .slider-text {
-    z-index: 1;
     position: absolute;
-    top: 150px;
-    left: 300px;
+    z-index: 1;
+    width: 95%;
+    margin: auto;
+    top: 200px;
+    left: 0px;
     text-align: center;
+}
+
+
+.slider-text,
+h2,
+h4 {
+    color: var(--c-white);
 }
 
 /* slider form */
@@ -72,8 +87,8 @@
 
 .search_form .form_control {
     border: 1px solid var(--c-white);
-    background-color: var(--c-primary-main);
-    color: var(--c-primary-light) !important;
+    background-color: var(--c-white);
+    color: var(--c-black) !important;
     padding: 0px 20px;
     float: left;
     width: 100%;
@@ -97,17 +112,11 @@
     color: var(--c-primary-light);
 }
 
-.slider_form,
-h4,
-span,
-img {
-    color: var(--c-primary-light);
-}
-
 .slider_form .ed_link i,
 a {
     color: var(--c-dot-1);
     font-weight: 700;
+    /* font-size: small; */
 }
 
 
@@ -208,12 +217,16 @@ a {
 .ed_timer_sectionTop,
 .small-span {
     font-size: 30px;
+    color: var(--c-primary-dark);
+
 }
 
 .ed_timer_sectionTop,
 .big-span {
     font-size: 70px;
     font-weight: 900;
+    color: var(--c-primary-dark);
+
 }
 
 
@@ -247,7 +260,6 @@ a {
 }
 
 
-
 /* Contact section */
 .contact_section {
     padding: 30px 60px;
@@ -271,10 +283,10 @@ a {
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .contact-number i {
+    color: var(--c-black);
     margin-right: 10px;
 }
 
@@ -303,6 +315,7 @@ a {
     text-align: justify;
     font-size: small;
     color: var(--c-white);
+    margin-top: 30px;
 }
 
 .footer-content a img {
@@ -329,11 +342,11 @@ a {
     margin-right: 15px;
 }
 
-.footer-social-links li a {
+.footer-social-links li a i {
     color: var(--c-white);
 }
 
-.footer-social-links li a:hover {
+.footer-social-links li a i:hover {
     color: var(--c-primary-dark);
     transition-duration: 1000ms;
 }
@@ -438,19 +451,19 @@ i {
 /* media query */
 
 
-@media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
     .btn-form {
         width: 100%;
     }
 
+    /* 
     .contact-number {
         padding-top: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
+    } */
 
 
 
@@ -464,12 +477,6 @@ i {
     }
 
     .ed_course_single_image_overlay {
-        /* position: absolute;
-        top: 0%;
-        left: 0%;
-        bottom: 0%;
-        right: 0%;
-        background-color: rgba(0, 0, 0, 0.5); */
         width: 100%;
         height: 200px;
     }
@@ -477,6 +484,5 @@ i {
     .btn-form {
         width: 100%;
     }
-
 
 }

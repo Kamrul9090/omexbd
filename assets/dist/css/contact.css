@@ -1,0 +1,16 @@
+/* right aside section css */
+.right_aside_contact {
+    background-color: var(--c-primary-dark);
+    padding: 20px 30px;
+    color: var(--c-white);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}
+
+.right_aside_contact a {
+    color: var(--c-white);
+}
+
+.right_aside_contact a:hover {
+    color: var(--c-text-light);
+}

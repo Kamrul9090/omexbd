@@ -205,6 +205,8 @@ template {
     --c-dot-3: #ffab73;
     --c-dot-4: #4a47a3;
     --c-dot-5: #80ABFF;
+    --c-dot-6: #8a6d3b;
+    --c-dot-7: #fcf8e3;
     --size-1: 4px;
     --size-2: 8px;
     --size-3: 16px;
@@ -4953,6 +4955,10 @@ textarea {
 
 .form-group .textarea.form-control {
     line-height: 25px;
+}
+
+.form-group label {
+    font-weight: 700;
 }
 
 .form-group .form-control {

@@ -1,0 +1,9 @@
+.shipping_guide {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.shipping_guide p,
+li {
+    color: var(--c-text-light);
+
+}
