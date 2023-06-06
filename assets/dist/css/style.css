@@ -196,7 +196,6 @@ a {
 .ed_timer_section {
     background-image: url('/assets/images/banner/banner.jpg');
     background-size: cover;
-    /* width: 100%; */
     background-position: 100%;
     position: relative;
     background-attachment: fixed;
@@ -486,6 +485,22 @@ i {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+
+    .slider-text {
+        position: absolute;
+        z-index: 1;
+        width: 95%;
+        margin: auto;
+        top: 50px;
+        left: 0px;
+        text-align: center;
+    }
+
+    .slider-text h2,
+    h4 {
+        font-size: large;
     }
 
 }
